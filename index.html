@@ -20,7 +20,7 @@
   <body>
     <div class="wrap">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#">のんびりブログ</a>
+          <a class="navbar-brand" href="#">Portfolio</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,8 +29,8 @@
               <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link" href="#profile">Profile</a>
               <a class="nav-item nav-link" href="#work">Work</a>
-              <a class="nav-item nav-link" href="#contact">コンタクト</a>
-              <a class="nav-item nav-link" href="#calendar">カレンダー</a>
+              <a class="nav-item nav-link" href="#calender">Calender</a>
+              <a class="nav-item nav-link" href="#contact">Contack</a>
             </div>
           </div>
         </nav>
@@ -67,11 +67,37 @@
 <div class="section-content">
   <p>今まで自分が制作したものですクリックして詳細をご覧ください。</p>
   <div class="section-content">
-    <img src="C:/Users/Katsuki Niwa/workspace/MyBlog/image/Portfolio.png" class="work-content-image">
-    <img src="C:/Users/Katsuki Niwa/workspace/MyBlog/image/LINE.png" class="work-content-image">
-    <img src="C:/Users/Katsuki Niwa/workspace/MyBlog/image/Slack.png" class="work-content-image">
+    <div class="hidden_box">
+      <label for="label1">詳細表示</label>
+      <input type="checkbox" id="label1"/>
+      <img src="C:/Users/Katsuki Niwa/workspace/MyBlog/image/Portfolio.png" class="work-content-image">
+      <div class="hidden_show">
+        <h2>使用技術</h2>
+        <p>HTML5, CSS3, Bootstrap</p>
+      </div>
+    </div>
+    <div class="section-content">
+      <div class="hidden_box">
+        <label for="label2">詳細表示</label>
+        <input type="checkbox" id="label2"/>
+        <img src="C:/Users/Katsuki Niwa/workspace/MyBlog/image/LINE.png" class="work-content-image">
+        <div class="hidden_show">
+          <h2>使用技術</h2>
+          <p>A3RT API, LINE messaging API, node.js</p>
+        </div>
+      </div>
+      <div class="section-content">
+        <div class="hidden_box">
+          <label for="label3">詳細表示</label>
+          <input type="checkbox" id="label3"/>
+          <img src="C:/Users/Katsuki Niwa/workspace/MyBlog/image/Slack.png" class="work-content-image">
+          <div class="hidden_show">
+            <h2>使用技術</h2>
+            <p>Google Apps Script</p>
+          </div>
+        </div>
+      </div>
   </div>
-</div>
 </section>
 
 <section class="Calender" id="calender">
