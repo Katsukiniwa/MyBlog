@@ -124,9 +124,15 @@
    <div style="text-align: center">
     <h2 class="heading text-light">Contact</h2>
   </div>
-   <form class="contact-form">
-     <input type="text" name="name" placeholder="Name">
-     <textarea class="contact_message" name="message" placeholder="Message"></textarea>
+   <form class="contact-form"  action="thanks" method="post" netlify>
+     <div>
+       <input type="text" name="name" placeholder="Your Name">
+     <div>
+       <input type="text" name="email" placeholder="Your Email">
+      </div>
+     <div>
+       <textarea class="contact_message" name="message" placeholder="Message"></textarea>
+      </div>
      <input type="submit" value="SEND">
    </form>
  </section>
