@@ -36,8 +36,7 @@ body {
 }
 
 .jumbotron {
-  background:url("image/header.jpg") center no-repeat;
-  background-size: cover;
+  background-color: #AEFFBD;
   padding-bottom: 40px;
 }
 
