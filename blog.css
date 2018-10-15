@@ -36,7 +36,8 @@ body {
 }
 
 .jumbotron {
-  background-color: #AEFFBD;
+  background: url("image/header.jpg") center no-repeat;
+  background-size: cover;
   padding-bottom: 40px;
 }
 
@@ -45,13 +46,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-title {
+  background: url("image/header2.jpg") center;
   text-align: center;
   font-size: 5rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .site-description {
+  background: url("image/header2.jpg") center;
   text-align: center;
   font-size: 2.5rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .lead {
