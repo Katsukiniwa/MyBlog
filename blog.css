@@ -187,8 +187,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon {
-  width: 25%;
-  height: 25%;
+  width: auto;
+  height: 250px;
   border-radius: 50%;
   margin: 20px auto;
   text-align: center;
