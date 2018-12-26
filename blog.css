@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-title {
-  font-size: 2.0rem;
+  font-size: 1rem;
   font-family: 'Sawarabi Mincho', sans-serif;
 }
 
@@ -201,45 +201,21 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
-.hidden_box {
-  margin: 20px auto;
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 0 0 2em;
 }
 
-/*ボタン装飾*/
-.hidden_box label {
-  padding: 15px;
-  border: 2px black;
-  cursor :pointer;
-  background-color: #CEF9DC;
-  border-radius: 10px;
-  font-family: 'Sawarabi Mincho', sans-serif;
-  font-weight: bolder;
+.flexbox > div {
+  background: #ddd;
+  padding: 1em;
+  flex: 1 0 300px;
+  margin: 0.4em;
 }
 
-/*ボタンホバー時*/
-.hidden_box label:hover {
-    background: #efefef;
-}
-
-/*チェックは見えなくする*/
-.hidden_box input {
-    display: none;
-}
-
-.hidden_box .hidden_show {
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.8s;
-}
-
-/*クリックで中身表示*/
-.hidden_box input:checked ~ .hidden_show {
-    padding: 10px 0;
-    height: auto;
-    opacity: 1;
-}
 
 <style type="text/css">
 .toggle-box {
